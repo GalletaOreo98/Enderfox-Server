@@ -5008,9 +5008,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jack_o_lantern": {
+  "minecraft:nether/return_to_sender": {
     "criteria": {
-      "has_carved_pumpkin": "2025-05-24 23:25:05 +0000"
+      "killed_ghast": "2025-05-24 22:38:11 +0000"
     },
     "done": true
   },
@@ -5020,15 +5020,39 @@
     },
     "done": true
   },
-  "minecraft:nether/return_to_sender": {
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
     "criteria": {
-      "killed_ghast": "2025-05-24 22:38:11 +0000"
+      "has_carved_pumpkin": "2025-05-24 23:25:05 +0000"
     },
     "done": true
   },
   "travelersbackpack:recipes/misc/cow_smithing": {
     "criteria": {
       "has_cow": "2025-05-24 23:44:04 +0000"
+    },
+    "done": true
+  },
+  "camerapture:shutterbug": {
+    "criteria": {
+      "camera": "2025-05-25 22:47:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2025-05-25 22:49:00 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2025-05-25 22:56:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-05-25 22:56:29 +0000"
     },
     "done": true
   },
