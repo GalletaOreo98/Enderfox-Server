@@ -2230,6 +2230,7 @@
       "minecraft:pillager": "2025-04-23 06:30:16 +0000",
       "minecraft:blaze": "2025-05-07 20:26:18 +0000",
       "minecraft:skeleton": "2025-04-17 18:43:56 +0000",
+      "minecraft:zombified_piglin": "2025-05-24 22:47:00 +0000",
       "minecraft:witch": "2025-05-06 23:14:31 +0000",
       "minecraft:wither_skeleton": "2025-05-07 20:32:53 +0000",
       "minecraft:husk": "2025-05-10 20:35:48 +0000",
@@ -4923,27 +4924,21 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-05-20 19:11:49 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-05-20 19:12:57 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
-    "criteria": {
-      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2025-05-20 20:07:30 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-05-20 19:12:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2025-05-20 19:53:24 +0000"
     },
     "done": true
   },
@@ -4953,21 +4948,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal_from_bone_block": {
-    "criteria": {
-      "has_bone_block": "2025-05-20 19:39:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-05-20 19:12:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
-    "criteria": {
-      "has_snout_armor_trim_smithing_template": "2025-05-20 19:54:10 +0000"
     },
     "done": true
   },
@@ -4983,21 +4966,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-05-20 19:54:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-05-20 19:12:57 +0000"
     },
     "done": true
   },
-  "minecraft:nether/find_bastion": {
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
     "criteria": {
-      "bastion": "2025-05-20 19:11:49 +0000"
+      "has_bone_block": "2025-05-20 19:39:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-05-20 19:53:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2025-05-20 19:54:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-20 19:54:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2025-05-20 20:07:30 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-05-24 21:06:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-05-24 23:25:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-05-24 22:48:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-05-24 22:38:11 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cow_smithing": {
+    "criteria": {
+      "has_cow": "2025-05-24 23:44:04 +0000"
     },
     "done": true
   },
