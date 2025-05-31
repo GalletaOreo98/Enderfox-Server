@@ -319,6 +319,7 @@
       "honey_bottle": "2025-05-13 19:09:07 +0000",
       "suspicious_stew": "2025-04-23 06:52:41 +0000",
       "rotten_flesh": "2025-05-06 22:40:39 +0000",
+      "cooked_mutton": "2025-05-31 01:43:54 +0000",
       "glow_berries": "2025-04-17 17:35:36 +0000",
       "cooked_beef": "2025-05-10 18:44:14 +0000",
       "baked_potato": "2025-04-17 15:55:27 +0000",
@@ -5053,6 +5054,60 @@
   "minecraft:recipes/misc/black_dye": {
     "criteria": {
       "has_ink_sac": "2025-05-25 22:56:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-31 01:54:53 +0000"
     },
     "done": true
   },
