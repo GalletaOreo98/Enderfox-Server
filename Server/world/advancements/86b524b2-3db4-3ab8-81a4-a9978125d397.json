@@ -4652,5 +4652,11 @@
     },
     "done": true
   },
+  "camerapture:shutterbug": {
+    "criteria": {
+      "camera": "2025-06-13 23:37:57 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
