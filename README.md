@@ -1,5 +1,5 @@
 # NeoForge-Server
-Mi servidor de Minecraft con mods, utilizando Neoforge y Ngrok o Playit.gg maybe now using Fabric xd
+Mi servidor de Minecraft con mods, utilizando Fabric. También hay un server vanilla.
 
 ![](/Demo%20assets/full-enderfox.png)  
   
