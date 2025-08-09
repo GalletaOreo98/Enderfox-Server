@@ -1,4 +1,4 @@
-# NeoForge-Server
+# Enderfox-Server
 Mi servidor de Minecraft con mods, utilizando Fabric. También hay un server vanilla.
 
 ![](/Demo%20assets/full-enderfox.png)  
