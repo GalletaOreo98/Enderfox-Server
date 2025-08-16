@@ -5435,5 +5435,11 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/hay_smithing": {
+    "criteria": {
+      "has_hay": "2025-08-13 22:28:15 +0300"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
