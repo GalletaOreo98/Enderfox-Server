@@ -883,17 +883,19 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "apple": "2025-08-07 04:07:22 +0000",
       "pufferfish": "2025-08-12 05:47:31 +0000",
       "bread": "2025-08-07 04:02:02 +0000",
-      "cooked_chicken": "2025-08-06 03:29:52 +0000",
       "rotten_flesh": "2025-08-06 03:43:54 +0000",
-      "cooked_cod": "2025-08-09 03:52:18 +0000",
       "sweet_berries": "2025-08-06 04:01:31 +0000",
       "cooked_beef": "2025-08-21 03:57:09 +0000",
       "baked_potato": "2025-08-09 04:58:36 +0000",
+      "beef": "2025-08-22 05:10:57 +0000",
       "melon_slice": "2025-08-07 06:32:10 +0000",
-      "cooked_salmon": "2025-08-06 03:30:16 +0000"
+      "apple": "2025-08-07 04:07:22 +0000",
+      "cooked_chicken": "2025-08-06 03:29:52 +0000",
+      "cooked_cod": "2025-08-09 03:52:18 +0000",
+      "cooked_salmon": "2025-08-06 03:30:16 +0000",
+      "carrot": "2025-08-22 05:08:53 +0000"
     },
     "done": false
   },
@@ -1392,10 +1394,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-08-09 03:53:46 +0000",
+      "minecraft:blaze": "2025-08-22 03:47:39 +0000",
       "minecraft:skeleton": "2025-08-11 03:48:12 +0000",
       "minecraft:phantom": "2025-08-09 05:24:16 +0000",
       "minecraft:stray": "2025-08-14 04:33:21 +0000",
+      "minecraft:enderman": "2025-08-22 06:19:19 +0000",
       "minecraft:spider": "2025-08-07 04:50:24 +0000",
+      "minecraft:wither_skeleton": "2025-08-22 03:26:00 +0000",
       "minecraft:zombie": "2025-08-07 05:34:31 +0000",
       "minecraft:creeper": "2025-08-09 05:42:59 +0000"
     },
@@ -3047,6 +3052,192 @@
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2025-08-21 05:31:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-08-22 03:54:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-08-22 03:54:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-08-22 03:54:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-08-22 04:07:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-08-22 04:07:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-08-22 04:25:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-08-22 04:25:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-08-22 05:17:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-08-22 05:23:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-08-22 05:16:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/remove_wolf_armor": {
+    "criteria": {
+      "remove_wolf_armor": "2025-08-22 06:56:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wolf_armor": {
+    "criteria": {
+      "has_armadillo_scute": "2025-08-22 05:23:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-08-22 06:31:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-08-22 05:57:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-08-22 06:45:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-08-22 05:17:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_red_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-08-22 05:17:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-08-22 05:28:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2025-08-22 06:55:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-08-22 05:28:08 +0000"
     },
     "done": true
   },
