@@ -908,16 +908,17 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-08-08 03:14:27 +0000",
-      "apple": "2025-08-07 06:18:03 +0000",
       "bread": "2025-08-06 03:53:27 +0000",
-      "cooked_chicken": "2025-08-06 03:27:19 +0000",
       "rotten_flesh": "2025-08-09 04:22:52 +0000",
       "cooked_mutton": "2025-08-06 03:43:41 +0000",
-      "potato": "2025-08-09 05:31:19 +0000",
       "salmon": "2025-08-11 03:49:45 +0000",
       "cooked_beef": "2025-08-06 03:43:51 +0000",
       "baked_potato": "2025-08-09 05:31:30 +0000",
       "melon_slice": "2025-08-09 04:23:09 +0000",
+      "golden_carrot": "2025-08-26 05:55:03 +0000",
+      "apple": "2025-08-07 06:18:03 +0000",
+      "cooked_chicken": "2025-08-06 03:27:19 +0000",
+      "potato": "2025-08-09 05:31:19 +0000",
       "carrot": "2025-08-12 03:26:59 +0000"
     },
     "done": false
@@ -1540,7 +1541,8 @@
       "minecraft:spider": "2025-08-09 04:21:01 +0000",
       "minecraft:wither_skeleton": "2025-08-21 05:45:31 +0000",
       "minecraft:zombie": "2025-08-07 04:51:09 +0000",
-      "minecraft:creeper": "2025-08-24 05:10:18 +0000"
+      "minecraft:creeper": "2025-08-24 05:10:18 +0000",
+      "minecraft:zombie_villager": "2025-08-26 06:21:22 +0000"
     },
     "done": false
   },
@@ -3162,6 +3164,120 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2025-08-24 05:11:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2025-08-26 04:09:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-08-26 04:25:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-08-26 05:05:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-08-26 05:05:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-08-26 06:08:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-08-26 05:40:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-26 05:37:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-08-26 05:40:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-08-26 05:40:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-26 05:37:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-08-26 05:31:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-08-26 05:40:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-26 05:37:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-26 05:37:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-26 05:37:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-08-26 05:40:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-08-26 05:40:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-08-26 05:37:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-08-26 05:40:31 +0000"
     },
     "done": true
   },
