@@ -3572,15 +3572,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_shulker_box": {
+  "minecraft:end/find_end_city": {
     "criteria": {
-      "has_shulker_box": "2025-08-29 06:27:15 +0000"
+      "in_city": "2025-08-29 05:16:40 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+  "minecraft:recipes/decorations/shulker_box": {
     "criteria": {
-      "has_glass": "2025-08-29 05:34:52 +0000"
+      "has_shulker_shell": "2025-08-29 05:21:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-08-29 05:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-08-29 05:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-08-29 05:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-08-29 05:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-08-29 05:32:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-08-29 05:32:54 +0000"
     },
     "done": true
   },
@@ -3590,15 +3626,63 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/yellow_shulker_box": {
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-08-29 05:32:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-08-29 05:32:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-08-29 05:32:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-08-29 05:32:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-08-29 05:32:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2025-08-29 05:34:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2025-08-29 06:16:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-08-29 06:16:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-08-29 06:27:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+  "minecraft:recipes/decorations/yellow_shulker_box": {
     "criteria": {
-      "has_end_stone_bricks": "2025-08-29 05:32:57 +0000"
+      "has_shulker_box": "2025-08-29 06:27:15 +0000"
     },
     "done": true
   },
@@ -3614,18 +3698,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_slab": {
-    "criteria": {
-      "has_purpur_block": "2025-08-29 05:32:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-08-29 05:32:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/purple_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-08-29 06:27:15 +0000"
@@ -3635,18 +3707,6 @@
   "minecraft:recipes/decorations/pink_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-08-29 06:27:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
-    "criteria": {
-      "has_spire_armor_trim_smithing_template": "2025-08-29 06:16:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-08-29 05:32:57 +0000"
     },
     "done": true
   },
@@ -3668,42 +3728,6 @@
     },
     "done": true
   },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2025-08-29 05:16:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2025-08-29 06:27:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs": {
-    "criteria": {
-      "has_purpur_block": "2025-08-29 05:32:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2025-08-29 05:32:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-08-29 06:16:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
-    "criteria": {
-      "has_end_stone_bricks": "2025-08-29 05:32:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-08-29 06:27:15 +0000"
@@ -3716,21 +3740,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2025-08-29 05:32:57 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/magenta_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-08-29 06:27:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2025-08-29 05:32:54 +0000"
     },
     "done": true
   },
@@ -3752,27 +3764,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
-    "criteria": {
-      "has_shulker_shell": "2025-08-29 05:21:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
-    "criteria": {
-      "has_purpur_block": "2025-08-29 05:32:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-08-29 06:27:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+  "minecraft:end/elytra": {
     "criteria": {
-      "has_purpur_block": "2025-08-29 05:32:54 +0000"
+      "elytra": "2025-08-29 06:27:18 +0000"
     },
     "done": true
   },
