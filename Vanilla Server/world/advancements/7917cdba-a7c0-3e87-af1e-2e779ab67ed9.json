@@ -925,6 +925,7 @@
       "apple": "2025-08-07 06:18:03 +0000",
       "cooked_chicken": "2025-08-06 03:27:19 +0000",
       "potato": "2025-08-09 05:31:19 +0000",
+      "pumpkin_pie": "2025-09-06 07:46:43 +0000",
       "carrot": "2025-08-12 03:26:59 +0000"
     },
     "done": false
@@ -3785,6 +3786,24 @@
   "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2025-09-01 04:39:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-09-06 06:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-09-06 06:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-09-06 06:46:51 +0000"
     },
     "done": true
   },
