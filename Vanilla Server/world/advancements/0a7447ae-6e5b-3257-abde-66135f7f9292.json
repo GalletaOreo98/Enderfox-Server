@@ -1408,6 +1408,7 @@
       "minecraft:stray": "2025-08-14 04:33:21 +0000",
       "minecraft:enderman": "2025-08-22 06:19:19 +0000",
       "minecraft:silverfish": "2025-08-26 05:38:03 +0000",
+      "minecraft:magma_cube": "2025-09-28 04:27:19 +0000",
       "minecraft:spider": "2025-08-07 04:50:24 +0000",
       "minecraft:zombie": "2025-08-07 05:34:31 +0000",
       "minecraft:creeper": "2025-08-09 05:42:59 +0000"
@@ -2427,6 +2428,7 @@
     "criteria": {
       "minecraft:cat": "2025-08-12 04:27:42 +0000",
       "minecraft:cow": "2025-08-14 03:47:16 +0000",
+      "minecraft:chicken": "2025-09-28 05:49:18 +0000",
       "minecraft:wolf": "2025-08-14 05:47:55 +0000",
       "minecraft:sheep": "2025-08-12 04:15:39 +0000"
     },
@@ -4128,6 +4130,36 @@
   "minecraft:recipes/misc/copper_ingot_from_blasting_copper_ore": {
     "criteria": {
       "has_copper_ore": "2025-09-06 07:09:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-09-28 04:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-09-28 04:06:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-09-28 04:31:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-09-28 05:33:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_lily_of_the_valley": {
+    "criteria": {
+      "has_lily_of_the_valley": "2025-09-28 05:33:14 +0000"
     },
     "done": true
   },
