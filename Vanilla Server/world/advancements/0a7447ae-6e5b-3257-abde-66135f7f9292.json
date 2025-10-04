@@ -1407,6 +1407,7 @@
       "minecraft:enderman": "2025-08-22 06:19:19 +0000",
       "minecraft:silverfish": "2025-08-26 05:38:03 +0000",
       "minecraft:magma_cube": "2025-09-28 04:27:19 +0000",
+      "minecraft:endermite": "2025-10-04 06:45:42 +0000",
       "minecraft:spider": "2025-08-07 04:50:24 +0000",
       "minecraft:zombie": "2025-08-07 05:34:31 +0000",
       "minecraft:creeper": "2025-08-09 05:42:59 +0000",
@@ -2431,7 +2432,8 @@
       "minecraft:chicken": "2025-09-28 05:49:18 +0000",
       "minecraft:wolf": "2025-08-14 05:47:55 +0000",
       "minecraft:turtle": "2025-10-01 04:30:12 +0000",
-      "minecraft:sheep": "2025-08-12 04:15:39 +0000"
+      "minecraft:sheep": "2025-08-12 04:15:39 +0000",
+      "minecraft:bee": "2025-10-04 04:31:13 +0000"
     },
     "done": false
   },
@@ -4454,15 +4456,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/copper_chest": {
+    "criteria": {
+      "has_the_recipe": "2025-10-03 22:13:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_copper_chest_from_honeycomb": {
     "criteria": {
       "has_copper_chest": "2025-10-03 22:13:36 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/copper_chest": {
+  "minecraft:recipes/decorations/beehive": {
     "criteria": {
-      "has_the_recipe": "2025-10-03 22:13:34 +0000"
+      "has_honeycomb": "2025-10-04 04:37:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-10-04 04:37:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_on": {
+    "criteria": {
+      "wax_on": "2025-10-04 05:58:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-10-04 05:59:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-10-04 05:59:35 +0000"
     },
     "done": true
   },
