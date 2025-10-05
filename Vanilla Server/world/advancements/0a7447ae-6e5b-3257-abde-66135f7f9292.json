@@ -4498,5 +4498,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2025-10-05 02:12:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2025-10-05 02:13:12 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4554
 }
