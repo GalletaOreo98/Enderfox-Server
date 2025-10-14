@@ -8,28 +8,32 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-08-06 03:48:23 +0000",
-      "minecraft:flower_forest": "2025-08-07 04:08:21 +0000",
-      "minecraft:savanna_plateau": "2025-08-12 05:27:25 +0000",
-      "minecraft:beach": "2025-08-06 03:06:16 +0000",
       "minecraft:old_growth_pine_taiga": "2025-08-06 03:41:01 +0000",
-      "minecraft:dark_forest": "2025-08-06 03:33:26 +0000",
       "minecraft:mushroom_fields": "2025-10-03 06:07:59 +0000",
       "minecraft:forest": "2025-08-06 03:06:42 +0000",
       "minecraft:taiga": "2025-08-06 03:40:32 +0000",
-      "minecraft:sparse_jungle": "2025-08-07 03:59:57 +0000",
-      "minecraft:river": "2025-08-06 03:10:31 +0000",
-      "minecraft:lukewarm_ocean": "2025-10-01 04:14:39 +0000",
-      "minecraft:stony_shore": "2025-08-07 03:47:51 +0000",
       "minecraft:lush_caves": "2025-10-03 06:03:35 +0000",
-      "minecraft:old_growth_birch_forest": "2025-08-06 03:30:38 +0000",
+      "minecraft:eroded_badlands": "2025-10-14 03:28:07 +0000",
+      "minecraft:desert": "2025-10-14 03:28:45 +0000",
       "minecraft:ocean": "2025-08-06 03:47:48 +0000",
       "minecraft:jungle": "2025-08-07 04:01:47 +0000",
       "minecraft:birch_forest": "2025-08-06 03:37:12 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-08-06 03:33:41 +0000",
-      "minecraft:savanna": "2025-08-07 04:10:50 +0000",
       "minecraft:bamboo_jungle": "2025-08-12 05:07:05 +0000",
-      "minecraft:plains": "2025-08-06 04:03:53 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-10-03 06:07:47 +0000"
+      "minecraft:warm_ocean": "2025-10-14 03:32:48 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-10-03 06:07:47 +0000",
+      "minecraft:badlands": "2025-10-14 03:18:17 +0000",
+      "minecraft:flower_forest": "2025-08-07 04:08:21 +0000",
+      "minecraft:savanna_plateau": "2025-08-12 05:27:25 +0000",
+      "minecraft:beach": "2025-08-06 03:06:16 +0000",
+      "minecraft:dark_forest": "2025-08-06 03:33:26 +0000",
+      "minecraft:sparse_jungle": "2025-08-07 03:59:57 +0000",
+      "minecraft:river": "2025-08-06 03:10:31 +0000",
+      "minecraft:lukewarm_ocean": "2025-10-01 04:14:39 +0000",
+      "minecraft:stony_shore": "2025-08-07 03:47:51 +0000",
+      "minecraft:old_growth_birch_forest": "2025-08-06 03:30:38 +0000",
+      "minecraft:savanna": "2025-08-07 04:10:50 +0000",
+      "minecraft:plains": "2025-08-06 04:03:53 +0000"
     },
     "done": false
   },
@@ -1401,14 +1405,18 @@
       "minecraft:zombified_piglin": "2025-08-27 03:47:16 +0000",
       "minecraft:witch": "2025-08-26 04:57:44 +0000",
       "minecraft:wither_skeleton": "2025-08-22 03:26:00 +0000",
+      "minecraft:ghast": "2025-10-14 04:31:58 +0000",
       "minecraft:ender_dragon": "2025-08-26 06:06:41 +0000",
+      "minecraft:hoglin": "2025-10-14 03:48:49 +0000",
       "minecraft:shulker": "2025-08-29 05:17:06 +0000",
+      "minecraft:piglin": "2025-10-14 04:25:04 +0000",
       "minecraft:stray": "2025-08-14 04:33:21 +0000",
       "minecraft:enderman": "2025-08-22 06:19:19 +0000",
       "minecraft:silverfish": "2025-08-26 05:38:03 +0000",
       "minecraft:magma_cube": "2025-09-28 04:27:19 +0000",
       "minecraft:endermite": "2025-10-04 06:45:42 +0000",
       "minecraft:spider": "2025-08-07 04:50:24 +0000",
+      "minecraft:piglin_brute": "2025-10-14 04:45:43 +0000",
       "minecraft:zombie": "2025-08-07 05:34:31 +0000",
       "minecraft:creeper": "2025-08-09 05:42:59 +0000",
       "minecraft:drowned": "2025-10-01 04:32:46 +0000",
@@ -4769,21 +4777,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2025-10-11 04:43:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blackstone_wall": {
     "criteria": {
       "has_blackstone": "2025-10-11 04:35:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap": {
-    "criteria": {
-      "has_ancient_debris": "2025-10-11 04:43:36 +0000"
     },
     "done": true
   },
@@ -4796,18 +4792,6 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-10-11 04:35:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
-    "criteria": {
-      "has_deepslate_redstone_ore": "2025-10-11 06:07:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2025-10-11 04:43:36 +0000"
     },
     "done": true
   },
@@ -4847,18 +4831,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
-    "criteria": {
-      "has_nether_gold_ore": "2025-10-11 04:59:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
-    "criteria": {
-      "has_spire_armor_trim_smithing_template": "2025-10-11 05:41:40 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-10-11 04:35:18 +0000"
@@ -4877,27 +4849,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/quartz": {
-    "criteria": {
-      "has_nether_quartz_ore": "2025-10-11 05:16:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-10-11 04:35:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
-    "criteria": {
-      "has_nether_gold_ore": "2025-10-11 04:59:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-10-11 05:41:40 +0000"
     },
     "done": true
   },
@@ -4907,9 +4861,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
-      "has_deepslate_redstone_ore": "2025-10-11 06:07:49 +0000"
+      "has_blackstone": "2025-10-11 04:35:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-10-11 04:43:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-10-11 04:43:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-10-11 04:43:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-10-11 04:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2025-10-11 04:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-10-11 05:16:46 +0000"
     },
     "done": true
   },
@@ -4919,9 +4909,195 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
     "criteria": {
-      "has_blackstone": "2025-10-11 04:35:18 +0000"
+      "has_spire_armor_trim_smithing_template": "2025-10-11 05:41:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-11 05:41:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-10-11 06:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2025-10-11 06:07:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-10-14 03:38:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-10-14 03:53:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-10-14 04:41:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-10-14 04:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-10-14 04:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-10-14 04:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-10-14 04:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-10-14 04:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-10-14 04:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-10-14 04:45:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2025-10-14 04:50:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-10-14 04:51:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-10-14 05:01:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-10-14 05:18:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2025-10-14 05:18:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2025-10-14 05:25:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2025-10-14 05:25:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-10-14 05:43:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2025-10-14 05:43:00 +0000"
     },
     "done": true
   },
