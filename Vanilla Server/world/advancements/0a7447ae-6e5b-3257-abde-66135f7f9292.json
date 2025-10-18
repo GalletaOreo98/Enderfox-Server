@@ -1401,26 +1401,29 @@
       "minecraft:pillager": "2025-08-09 03:53:46 +0000",
       "minecraft:blaze": "2025-08-22 03:47:39 +0000",
       "minecraft:skeleton": "2025-08-11 03:48:12 +0000",
+      "minecraft:ghast": "2025-10-14 04:31:58 +0000",
+      "minecraft:hoglin": "2025-10-14 03:48:49 +0000",
+      "minecraft:breeze": "2025-10-18 05:53:55 +0000",
+      "minecraft:magma_cube": "2025-09-28 04:27:19 +0000",
+      "minecraft:spider": "2025-08-07 04:50:24 +0000",
+      "minecraft:piglin_brute": "2025-10-14 04:45:43 +0000",
+      "minecraft:creeper": "2025-08-09 05:42:59 +0000",
+      "minecraft:wither": "2025-09-29 03:52:06 +0000",
+      "minecraft:slime": "2025-10-18 05:32:09 +0000",
       "minecraft:phantom": "2025-08-09 05:24:16 +0000",
       "minecraft:zombified_piglin": "2025-08-27 03:47:16 +0000",
       "minecraft:witch": "2025-08-26 04:57:44 +0000",
       "minecraft:wither_skeleton": "2025-08-22 03:26:00 +0000",
-      "minecraft:ghast": "2025-10-14 04:31:58 +0000",
+      "minecraft:husk": "2025-10-18 05:34:53 +0000",
       "minecraft:ender_dragon": "2025-08-26 06:06:41 +0000",
-      "minecraft:hoglin": "2025-10-14 03:48:49 +0000",
       "minecraft:shulker": "2025-08-29 05:17:06 +0000",
       "minecraft:piglin": "2025-10-14 04:25:04 +0000",
       "minecraft:stray": "2025-08-14 04:33:21 +0000",
       "minecraft:enderman": "2025-08-22 06:19:19 +0000",
       "minecraft:silverfish": "2025-08-26 05:38:03 +0000",
-      "minecraft:magma_cube": "2025-09-28 04:27:19 +0000",
       "minecraft:endermite": "2025-10-04 06:45:42 +0000",
-      "minecraft:spider": "2025-08-07 04:50:24 +0000",
-      "minecraft:piglin_brute": "2025-10-14 04:45:43 +0000",
       "minecraft:zombie": "2025-08-07 05:34:31 +0000",
-      "minecraft:creeper": "2025-08-09 05:42:59 +0000",
-      "minecraft:drowned": "2025-10-01 04:32:46 +0000",
-      "minecraft:wither": "2025-09-29 03:52:06 +0000"
+      "minecraft:drowned": "2025-10-01 04:32:46 +0000"
     },
     "done": false
   },
@@ -5128,6 +5131,186 @@
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2025-10-16 05:27:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_smelting": {
+    "criteria": {
+      "has_copper_leggings": "2025-10-18 05:52:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_nugget_from_blasting": {
+    "criteria": {
+      "has_copper_leggings": "2025-10-18 05:52:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2025-10-18 05:28:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2025-10-18 06:28:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-10-18 06:53:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/mace": {
+    "criteria": {
+      "has_breeze_rod": "2025-10-18 05:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2025-10-18 06:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template": {
+    "criteria": {
+      "has_bolt_armor_trim_smithing_template": "2025-10-18 06:00:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template": {
+    "criteria": {
+      "has_flow_armor_trim_smithing_template": "2025-10-18 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/green_bundle": {
+    "criteria": {
+      "has_green_dye": "2025-10-18 06:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bolt_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-18 06:00:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wind_charge": {
+    "criteria": {
+      "has_breeze_rod": "2025-10-18 05:53:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_green_harness": {
+    "criteria": {
+      "has_needed_dye": "2025-10-18 06:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-10-18 05:35:33 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/flow_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-10-18 06:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-10-18 06:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-10-18 06:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-10-18 06:54:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_polished_tuff_stonecutting": {
+    "criteria": {
+      "has_polished_tuff": "2025-10-18 06:29:21 +0000"
     },
     "done": true
   },
