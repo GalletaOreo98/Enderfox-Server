@@ -19,6 +19,8 @@
       "minecraft:desert": "2025-10-14 03:28:45 +0000",
       "minecraft:ocean": "2025-08-06 03:47:48 +0000",
       "minecraft:jungle": "2025-08-07 04:01:47 +0000",
+      "minecraft:cherry_grove": "2025-10-21 04:04:38 +0000",
+      "minecraft:sunflower_plains": "2025-10-21 04:14:19 +0000",
       "minecraft:birch_forest": "2025-08-06 03:37:12 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-08-06 03:33:41 +0000",
       "minecraft:bamboo_jungle": "2025-08-12 05:07:05 +0000",
@@ -36,6 +38,7 @@
       "minecraft:snowy_plains": "2025-10-18 21:52:31 +0000",
       "minecraft:old_growth_birch_forest": "2025-08-06 03:30:38 +0000",
       "minecraft:grove": "2025-10-18 21:30:28 +0000",
+      "minecraft:meadow": "2025-10-21 04:08:05 +0000",
       "minecraft:savanna": "2025-08-07 04:10:50 +0000",
       "minecraft:plains": "2025-08-06 04:03:53 +0000"
     },
@@ -1405,15 +1408,18 @@
       "minecraft:pillager": "2025-08-09 03:53:46 +0000",
       "minecraft:blaze": "2025-08-22 03:47:39 +0000",
       "minecraft:skeleton": "2025-08-11 03:48:12 +0000",
+      "minecraft:ravager": "2025-10-21 05:11:13 +0000",
       "minecraft:ghast": "2025-10-14 04:31:58 +0000",
       "minecraft:hoglin": "2025-10-14 03:48:49 +0000",
       "minecraft:breeze": "2025-10-18 05:53:55 +0000",
+      "minecraft:vindicator": "2025-10-21 04:35:20 +0000",
       "minecraft:magma_cube": "2025-09-28 04:27:19 +0000",
       "minecraft:spider": "2025-08-07 04:50:24 +0000",
       "minecraft:piglin_brute": "2025-10-14 04:45:43 +0000",
       "minecraft:creeper": "2025-08-09 05:42:59 +0000",
       "minecraft:wither": "2025-09-29 03:52:06 +0000",
       "minecraft:slime": "2025-10-18 05:32:09 +0000",
+      "minecraft:evoker": "2025-10-21 05:12:35 +0000",
       "minecraft:phantom": "2025-08-09 05:24:16 +0000",
       "minecraft:zombified_piglin": "2025-08-27 03:47:16 +0000",
       "minecraft:witch": "2025-08-26 04:57:44 +0000",
@@ -1426,6 +1432,7 @@
       "minecraft:enderman": "2025-08-22 06:19:19 +0000",
       "minecraft:silverfish": "2025-08-26 05:38:03 +0000",
       "minecraft:endermite": "2025-10-04 06:45:42 +0000",
+      "minecraft:vex": "2025-10-21 05:11:56 +0000",
       "minecraft:zombie": "2025-08-07 05:34:31 +0000",
       "minecraft:drowned": "2025-10-01 04:32:46 +0000"
     },
@@ -5321,6 +5328,30 @@
   "minecraft:nether/fast_travel": {
     "criteria": {
       "travelled": "2025-10-18 21:52:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-10-21 04:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-10-21 04:04:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2025-10-21 04:05:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-10-21 05:23:15 +0000"
     },
     "done": true
   },
