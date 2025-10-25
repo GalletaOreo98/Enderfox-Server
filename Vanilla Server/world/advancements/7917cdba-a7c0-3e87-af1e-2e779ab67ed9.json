@@ -1569,6 +1569,7 @@
       "minecraft:stray": "2025-10-18 05:21:40 +0000",
       "minecraft:vex": "2025-10-21 05:04:01 +0000",
       "minecraft:zombie": "2025-08-07 04:51:09 +0000",
+      "minecraft:drowned": "2025-10-25 04:58:16 +0000",
       "minecraft:zombie_villager": "2025-08-26 06:21:22 +0000"
     },
     "done": false
@@ -4959,6 +4960,12 @@
   "minecraft:husbandry/allay_deliver_item_to_player": {
     "criteria": {
       "allay_deliver_item_to_player": "2025-10-21 05:26:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2025-10-25 05:19:50 +0000"
     },
     "done": true
   },
