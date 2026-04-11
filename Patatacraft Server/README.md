@@ -1,2 +1,2 @@
 # Patatacraft
-Server Vanilla alternativo
+Server Vanilla alternativo :3
