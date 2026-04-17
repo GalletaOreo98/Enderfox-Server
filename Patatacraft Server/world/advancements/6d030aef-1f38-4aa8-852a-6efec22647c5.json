@@ -161,15 +161,18 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "bread": "2026-01-30 20:43:16 -0600",
+      "rotten_flesh": "2026-01-30 21:46:25 -0600",
+      "cookie": "2026-04-17 00:50:05 -0600",
+      "suspicious_stew": "2026-04-16 23:22:20 -0600",
+      "cooked_beef": "2026-04-09 23:00:30 -0600",
+      "baked_potato": "2026-01-31 22:05:22 -0600",
       "beetroot_soup": "2026-01-31 21:54:47 -0600",
       "apple": "2026-01-30 20:34:02 -0600",
-      "bread": "2026-01-30 20:43:16 -0600",
       "cooked_chicken": "2026-01-30 21:48:48 -0600",
-      "rotten_flesh": "2026-01-30 21:46:25 -0600",
       "potato": "2026-04-10 00:39:07 -0600",
-      "cooked_beef": "2026-04-09 23:00:30 -0600",
       "cod": "2026-02-15 02:06:33 -0600",
-      "baked_potato": "2026-01-31 22:05:22 -0600",
+      "pumpkin_pie": "2026-04-17 01:12:17 -0600",
       "carrot": "2026-01-30 22:01:00 -0600"
     },
     "done": false
@@ -3244,6 +3247,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_the_recipe": "2026-04-13 23:23:37 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-04-14 00:54:24 -0600"
@@ -3298,12 +3307,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dye_red_bed": {
-    "criteria": {
-      "has_the_recipe": "2026-04-13 23:23:37 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-04-14 00:54:24 -0600"
@@ -3343,6 +3346,36 @@
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2026-04-14 01:18:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-04-16 23:22:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-04-16 23:03:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2026-04-16 23:35:39 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-04-16 23:41:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2026-04-16 22:28:02 -0600"
     },
     "done": true
   },

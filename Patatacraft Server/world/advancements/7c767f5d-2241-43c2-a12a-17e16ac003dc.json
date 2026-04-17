@@ -7,14 +7,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-04-16 21:47:52 -0600",
       "minecraft:flower_forest": "2026-01-30 21:10:01 -0600",
       "minecraft:snowy_slopes": "2026-01-30 20:58:14 -0600",
       "minecraft:beach": "2026-02-15 01:30:08 -0600",
       "minecraft:dark_forest": "2026-01-30 22:29:43 -0600",
       "minecraft:forest": "2026-01-30 20:29:38 -0600",
+      "minecraft:taiga": "2026-04-16 22:30:40 -0600",
       "minecraft:river": "2026-01-30 20:27:17 -0600",
       "minecraft:stony_shore": "2026-02-15 01:18:34 -0600",
       "minecraft:dripstone_caves": "2026-01-30 20:37:09 -0600",
+      "minecraft:deep_cold_ocean": "2026-04-16 22:15:12 -0600",
       "minecraft:old_growth_birch_forest": "2026-01-30 22:20:13 -0600",
       "minecraft:ocean": "2026-02-15 01:27:33 -0600",
       "minecraft:cherry_grove": "2026-01-30 20:29:33 -0600",
@@ -22,6 +25,7 @@
       "minecraft:grove": "2026-02-15 01:19:17 -0600",
       "minecraft:meadow": "2026-01-30 20:21:39 -0600",
       "minecraft:birch_forest": "2026-01-30 22:21:45 -0600",
+      "minecraft:old_growth_spruce_taiga": "2026-04-16 22:07:37 -0600",
       "minecraft:plains": "2026-01-30 20:23:07 -0600",
       "minecraft:pale_garden": "2026-01-30 22:30:47 -0600"
     },
@@ -145,6 +149,7 @@
     "criteria": {
       "bread": "2026-01-30 20:33:55 -0600",
       "rotten_flesh": "2026-01-30 21:42:57 -0600",
+      "cookie": "2026-04-17 00:49:46 -0600",
       "potato": "2026-01-30 22:35:10 -0600",
       "cooked_cod": "2026-02-14 23:43:39 -0600",
       "cooked_beef": "2026-01-30 21:51:26 -0600",
@@ -3228,51 +3233,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2026-04-13 21:40:13 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-04-13 23:03:27 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2026-04-14 01:09:16 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-04-13 23:03:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2026-04-14 01:09:16 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/dye_purple_harness": {
-    "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_purple_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/purple_candle": {
-    "criteria": {
-      "has_purple_dye": "2026-04-14 01:12:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
-    "criteria": {
-      "has_purple_dye": "2026-04-14 01:12:45 -0600"
     },
     "done": true
   },
@@ -3300,81 +3275,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_purple_wool": {
-    "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_wool": {
-    "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:37 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
-    "criteria": {
-      "has_red_dye": "2026-04-14 01:12:37 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_red_bed": {
-    "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:37 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_purple_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:45 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2026-04-14 01:09:16 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-04-13 23:03:27 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_candle": {
-    "criteria": {
-      "has_red_dye": "2026-04-14 01:12:37 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
-    "criteria": {
-      "has_iron_block": "2026-04-13 23:40:57 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/red_bundle": {
-    "criteria": {
-      "has_red_dye": "2026-04-14 01:12:37 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_glass_pane": "2026-04-13 23:03:27 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/dye_red_carpet": {
-    "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:37 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/purple_bundle": {
-    "criteria": {
-      "has_purple_dye": "2026-04-14 01:12:45 -0600"
     },
     "done": true
   },
@@ -3402,21 +3311,159 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/dye_red_harness": {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "has_needed_dye": "2026-04-14 01:12:37 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2026-04-13 21:40:13 -0600"
+      "has_iron_block": "2026-04-13 23:40:57 -0600"
     },
     "done": true
   },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
       "has_iron_block": "2026-04-13 23:40:57 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2026-04-14 01:09:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2026-04-14 01:09:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2026-04-14 01:09:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2026-04-14 01:12:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2026-04-14 01:12:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/red_bundle": {
+    "criteria": {
+      "has_red_dye": "2026-04-14 01:12:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_red_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:37 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/dye_purple_harness": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2026-04-14 01:12:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2026-04-14 01:12:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2026-04-14 01:12:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/purple_bundle": {
+    "criteria": {
+      "has_purple_dye": "2026-04-14 01:12:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2026-04-16 21:56:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2026-04-16 21:56:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-04-16 21:57:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-04-16 21:57:19 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2026-04-16 21:57:24 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-04-16 22:07:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-04-16 22:53:30 -0600"
     },
     "done": true
   },
